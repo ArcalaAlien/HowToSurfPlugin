@@ -1,0 +1,31 @@
+"Phrases"
+{
+    "DISCORD_LINK"
+    {
+        "en"    "You can access our Discord server here: discord.gg/xnuHA5KsEU"
+    }
+    "STEAM_LINK"
+    {
+        "en"    "You can access our Steam group here: https://steamcommunity.com/groups/TF2SurfnTurf"
+    }
+    "STAFF_LIST1"
+    {
+        "en"    "The owners and admins of the server are: LucasDoofus, TheLinuxNerd, and Arcala the Gyiyg"
+    }
+    "STAFF_LIST2"
+    {
+        "en"    "We currently have one moderator: Weeabruh"
+    }
+    "HOWTO_SURF1"
+    {
+        "en"    "Pretend that this is a ramp ╱╲"
+    }
+    "HOWTO_SURF2"
+    {
+        "en"    "In order to surf, hold down your strafe key depending on what side of the ramp you're on. D╱╲A"
+    }
+    "HOWTO_SURF3"
+    {
+        "en"    "Then, use your mouse to aim where you want to go!"
+    }
+}
