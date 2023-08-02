@@ -16,6 +16,18 @@
     {
         "en"    "We currently have one moderator: Weeabruh"
     }
+    "TAG_MSG1"
+    {
+        "en"    "You can use /tag, /tags, or /tagmenu to bring up the menu to add a tag!"
+    }
+    "TAG_MSG2"
+    {
+        "en"    "Just select the one you want and it'll automatically add it to your name."
+    }
+    "TAG_MSG3"
+    {
+        "en"    "If you select the tag you already have equipped it will unequip your tag."
+    }
     "HOWTO_SURF1"
     {
         "en"    "Pretend that this is a ramp ╱╲"

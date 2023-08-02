@@ -40,6 +40,12 @@ public int Info_Menu_Handler(Menu menu, MenuAction action, int param1, int param
                 PrintToChat(param1, "\x01\x04[INFO]: \x01\x01%t", "STAFF_LIST1");
                 PrintToChat(param1, "\x01\x04[INFO]: \x01\x01%t", "STAFF_LIST2");
             }
+            else if(strcmp(menuItemBuffer, "OPT_TAGS") == 0)
+            {
+                PrintToChat(param1, "\x01\x04[INFO]: \x01\x01%t", "TAG_MSG1");
+                PrintToChat(param1, "\x01\x04[INFO]: \x01\x01%t", "TAG_MSG2");
+                PrintToChat(param1, "\x01\x04[INFO]: \x01\x01%t", "TAG_MSG2");
+            }
             else if (strcmp(menuItemBuffer, "OPT_SURF") == 0)
             {
                 PrintToChat(param1, "\x01\x04[INFO]: \x01\x01%t", "HOWTO_SURF1");
@@ -63,13 +69,14 @@ public Action CMD_INFO(int client, int args)
 {
     if(args > 0)
     {
-        PrintToChat(client, "\x01\x04[SM] Usage: \x01\x01/info or /infomenu");
+        PrintToChat(client, "\x01\x04[INFO] Usage: \x01\x01/info or /infomenu");
     }
     Menu m_InfoMenu = new Menu(Info_Menu_Handler, MENU_ACTIONS_DEFAULT);
     m_InfoMenu.SetTitle("Surf'n'Turf Info Menu");
     m_InfoMenu.AddItem("OPT_DISCORD", "Discord Server");
     m_InfoMenu.AddItem("OPT_STEAM", "Steam Group");
     m_InfoMenu.AddItem("OPT_STAFF", "Current staff members");
+    m_InfoMenu.AddItem("OPT_TAGS", "How to equip a tag");
     m_InfoMenu.AddItem("OPT_SURF", "How To Surf");
     m_InfoMenu.Display(client, MENU_TIME_FOREVER);
     return Plugin_Handled;
