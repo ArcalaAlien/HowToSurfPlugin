@@ -10,11 +10,15 @@
     }
     "STAFF_LIST1"
     {
-        "en"    "The owners and admins of the server are: LucasDoofus, TheLinuxNerd, and Arcala the Gyiyg"
+        "en"    "Owners: LucasDoofus, TheLinuxNerd, and Arcala the Gyiyg"
     }
     "STAFF_LIST2"
     {
-        "en"    "We currently have one moderator: Weeabruh"
+        "en"    "Admins: See Owners"
+    }
+    "STAFF_LIST3"
+    {
+        "en"    "Moderators: weeabruh, twerp"
     }
     "TAG_MSG1"
     {
